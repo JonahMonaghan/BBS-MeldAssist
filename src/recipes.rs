@@ -152,6 +152,7 @@ pub enum Command{
     HomingSlide,
     Teleport,
     Doubleflight,
+    Unknown,
 }
 
 #[derive(Debug, Deserialize)]
@@ -174,11 +175,12 @@ pub enum RecipeType{
     P,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Clone)]
 pub enum Character{
     Terra,
     Aqua,
     Ventus,
+    Unknown,
 }
 
 #[derive(Debug, Deserialize)]
