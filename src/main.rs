@@ -43,6 +43,36 @@ fn get_user_input() -> String{
     user_input
 }
 
+fn split_args_with_quotes(input: &str) -> Vec<String> {
+    let mut args = Vec::new();
+    let mut in_quotes = false;
+    let mut current_arg = String::new();
+
+    for c in input.chars() {
+        match c {
+            ' ' if !in_quotes => {
+                if !current_arg.is_empty() {
+                    args.push(current_arg.clone());
+                    current_arg.clear();
+                }
+            }
+            '"' => {
+                in_quotes = !in_quotes;
+            }
+            _ => {
+                current_arg.push(c);
+            }
+        }
+    }
+
+    if !current_arg.is_empty() {
+        args.push(current_arg.clone());
+    }
+
+    args
+}
+
+
 fn launch_banner(){
     println!("*************************");
     println!("***   WELCOME TO...   ***");
@@ -96,14 +126,22 @@ fn pre_meld_menu(character: &mut Character, command1: &mut Command, command2: &m
 //COMMANDS FUNCTIONS
 
 fn display_commands_help(){
-
+    println!("The commands command is used to change the commands in your current meld.");
+    println!("\n\x1b[1mcommands change [[-c1 [COMMAND NAME]]] [[-c2 [COMMAND NAME]]] [OPTIONS]\x1b[0m -- Changes your active commands");
+    println!("\n\x1b[38;5;196mREQUIRED\x1b[0m - -c1 COMMAND NAME | -c2 COMMAND NAME - Enter the desired command name");
+    println!("Enter a command name, any commands with spaces should be written with them ommited");
+    println!("If you prefer, you may add the spaces but ensure that your command is surrounded by \" \n");
+    println!("\x1b[38;5;46mEXAMPLE\x1b[0m");
+    println!("\x1b[1mcommands -c1 zerogravity -c2 \"zero gravity\"\x1b[0m");
+    println!("There is also many shorthand namings for the commands which can be found using the command \x1b[1mshorthand\x1b[0m");
+    println!("The -c1 OR -c2 command allowing you to change one command at a time if desired.");
 }
 
 fn display_commands_status(command1: Command, command2: Command){
 
 }
 
-fn change_commands(args: &[&str], command1: &mut Command, command2: &mut Command){
+fn change_commands(args: &[String], command1: &mut Command, command2: &mut Command){
 
 }
 
@@ -143,7 +181,7 @@ fn display_character_status(character: Character){
     }
 }
 
-fn change_character(args: &[&str], character: &mut Character){
+fn change_character(args: &[String], character: &mut Character){
     if args[0].is_empty(){
         println!("\x1b[38;5;196mERROR\x1b[0m: No character specified. Please refer to \x1b[1mchar help\x1b[0m for more information.")
     }
@@ -170,7 +208,7 @@ fn change_character(args: &[&str], character: &mut Character){
     }
 }
 
-fn process_user_command(args: &[&str], character: &mut Character, command1: &mut Command, command2: &mut Command, recipes: &Result<HashMap<(Command, Command), Recipe>>){
+fn process_user_command(args: &[String], character: &mut Character, command1: &mut Command, command2: &mut Command, recipes: &Result<HashMap<(Command, Command), Recipe>>){
     if args.is_empty(){
         return;
     }
@@ -212,7 +250,7 @@ fn main() {
     let mut character : Character = Character::Unknown;
     loop {
         let user_input = get_user_input();
-        let args: Vec<&str> = user_input.split_whitespace().collect();
+        let args: Vec<String> = split_args_with_quotes(&user_input);
 
         process_user_command(&args, &mut character, &mut command1, &mut command2, &recipes);
     }
