@@ -130,7 +130,7 @@ fn display_commands_help(){
     println!("\n\x1b[1mcommands change [[-c1 [COMMAND NAME]]] [[-c2 [COMMAND NAME]]] [OPTIONS]\x1b[0m -- Changes your active commands");
     println!("\n\x1b[38;5;196mREQUIRED\x1b[0m - -c1 COMMAND NAME | -c2 COMMAND NAME - Enter the desired command name");
     println!("Enter a command name, any commands with spaces should be written with them ommited");
-    println!("If you prefer, you may add the spaces but ensure that your command is surrounded by \" \n");
+    println!("If you prefer, you may add the spaces but ensure that your command is surrounded by \" \"\n");
     println!("\x1b[38;5;46mEXAMPLE\x1b[0m");
     println!("\x1b[1mcommands -c1 zerogravity -c2 \"zero gravity\"\x1b[0m");
     println!("There is also many shorthand namings for the commands which can be found using the command \x1b[1mshorthand\x1b[0m");
@@ -138,14 +138,44 @@ fn display_commands_help(){
 }
 
 fn display_commands_status(command1: Command, command2: Command){
-
+    println!("Command Slot 1: {:?}", command1);
+    println!("Command Slot 2: {:?}", command2);
 }
 
 fn change_commands(args: &[String], command1: &mut Command, command2: &mut Command){
+    if args[0].is_empty(){
+        println!("\x1b[38;5;196mERROR\x1b[0m: No subcommand specified. Please refer to \x1b[1mcommands help\x1b[0m for more information.")
+    }
 
+    let mut index = 0;
+    if(args[index] != "-c1") & (args[index] != "-c2"){
+        println!("\x1b[38;5;196mERROR\x1b[0m: No command-slot found in the first argument. Please refer to \x1b[1mcommands help\x1b[0m for more information.");
+        return;
+    }
+    while index < args.len(){
+        match args[index].to_lowercase().as_str(){
+            "-c1" | "--command1" =>{
+                index += 1;
+                change_command(args[index].clone(), command1);
+            }
+            "-c2" | "--command2" =>{
+                index += 1;
+                change_command(args[index].clone(), command2);
+            }
+            "-s" | "--status" => {
+                display_commands_status(command1.clone(), command2.clone());
+            }
+            _ => {
+                println!("\x1b[38;5;220mWARNING\x1b[0m: Unknown option, {}.", args[index].to_lowercase().as_str());
+                println!("\x1b[38;5;220mNOTICE\x1b[0m: Some operations may have been successful, please refer to \x1b[1mcommands status\x1b[0m before continuing.");
+                return;
+            },
+        }
+        index += 1;
+    }
 }
 
-fn change_command(args: &str, command: &mut Command){
+fn change_command(args: String, command: &mut Command){
     match args.parse::<Command>(){
         Ok(cmd) => *command = cmd,
         Err(_) => println!("Invalid Command"),
@@ -199,7 +229,7 @@ fn change_character(args: &[String], character: &mut Character){
             match args[index].to_lowercase().as_str(){
                 "-s" | "--status" => display_character_status(character.clone()),
                 _ => {
-                    println!("\x1b[38;5;220mWARNING\x1b[0m: Unknown option. {}", args[index].to_lowercase().as_str());
+                    println!("\x1b[38;5;220mWARNING\x1b[0m: Unknown option, {}.", args[index].to_lowercase().as_str());
                     println!("The change character operation has likely succeeded, however, it is recommended to use \x1b[1mchar status\x1b[0m to ensure you're happy with the result.");
                 }
             }
