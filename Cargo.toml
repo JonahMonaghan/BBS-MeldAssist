@@ -6,3 +6,5 @@ edition = "2021"
 [dependencies]
 serde_json = "1.0.118"
 serde = { version = "1.0.203", features = ["derive"] }
+colored = "2.0"
+winapi-util = "0.1.8"

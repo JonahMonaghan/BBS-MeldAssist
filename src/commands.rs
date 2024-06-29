@@ -164,6 +164,7 @@ impl FromStr for Command{
             "meteor crash" | "meteorcrash" | "mc" => Ok(Command::MeteorCrash),
             "magic hour" | "magichour" | "mh" => Ok(Command::MagicHour),
             "sliding dash" | "slidingdash" | "sd" => Ok(Command::SlidingDash),
+            "fire dash" | "firedash" | "fd" => Ok(Command::FireDash),
             "dark haze" | "darkhaze" | "dh" => Ok(Command::DarkHaze),
             "sonic blade" | "sonicblade" | "s-bld" => Ok(Command::SonicBlade),
             "chaos blade" | "chaosblade" | "c-bld" => Ok(Command::ChaosBlade),

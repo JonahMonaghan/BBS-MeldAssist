@@ -15,6 +15,7 @@ use crate::recipes::*;
 use crate::utilities::*;
 
 fn main() {
+    enable_virtual_terminal_processing();
     launch_banner();
     let recipes = add_recipes_to_hashmap("src/recipes.json");
     let mut command1 : Command = Command::Unknown;
@@ -115,4 +116,16 @@ fn display_help() {
 
     println!("\x1b[1mmeld\x1b[0m - Start the melding process with the current character and commands");
     println!("\x1b[1mhelp\x1b[0m - Display this help message");
+}
+
+#[cfg(windows)]
+pub fn enable_virtual_terminal_processing() {
+    use winapi_util::console::Console;
+
+    if let Ok(mut term) = Console::stdout() {
+        let _ = term.set_virtual_terminal_processing(true);
+    }
+    if let Ok(mut term) = Console::stderr() {
+        let _ = term.set_virtual_terminal_processing(true);
+    }
 }
