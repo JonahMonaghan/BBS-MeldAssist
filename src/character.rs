@@ -8,22 +8,11 @@ pub enum Character{
     Unknown,
 }
 
-pub fn display_character_help(){
-    println!("The char command is used to change/view your active character.");
-    println!("\n\x1b[1mchar change [[CHARACTER]] [[OPTION]]\x1b[0m -- Changes your active character");
-    println!("\n\x1b[38;5;196mREQUIRED\x1b[0m - CHARACTER - Enter your character's name");
-    println!("Terra (-t): change your character to Terra");
-    println!("Aqua (-a): change your character to Aqua");
-    println!("Ventus (-v): change your character to Ventus");
-    println!("Unknown (-u): sets your character to Unknown");
-    println!("Reset (-r): an alternative command to set your character to Unknown");
-    println!("\n\x1b[38;5;220mOPTIONAL\x1b[0m - OPTION - An additional modifier you can add to the command");
-    println!("--status (-s): Immediately displays your active character");
-    println!("\n\x1b[1mchar status\x1b[0m -- Displays your active character");
-    println!("\n\x1b[1mchar help\x1b[0m -- Displays the help menu");
-    println!("\n\x1b[38;5;46mUSAGE EXAMPLES\x1b[0m");
-    println!("\x1b[1mchar change Terra\x1b[0m -- Changes the current character to Terra");
-    println!("\n\x1b[1mchar change -t --status\x1b[0m -- Changes the current character to Terra then displays your current character");
+pub fn display_character_help() {
+    println!("Character commands:");
+    println!("\x1b[1mchar change [character]\x1b[0m - Change the current character. Available options: Terra, Aqua, Ventus");
+    println!("\x1b[1mchar status\x1b[0m - Display the current character");
+    println!("\x1b[1mchar help\x1b[0m - Show this help message");
 }
 
 pub fn display_character_status(character: Character){

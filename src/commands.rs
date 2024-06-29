@@ -321,17 +321,11 @@ pub fn normalize_commands(command1: &Command, command2: &Command) -> (Command, C
     }
 }
 
-pub fn display_commands_help(){
-    println!("The commands command is used to change the commands in your current meld.");
-    println!("\n\x1b[1mcommands change [[-c1 [COMMAND NAME]]] [[-c2 [COMMAND NAME]]] [OPTIONS]\x1b[0m -- Changes your active commands");
-    println!("\n\x1b[38;5;196mREQUIRED\x1b[0m - -c1 COMMAND NAME | -c2 COMMAND NAME - Enter the desired command name");
-    println!("Enter a command name, any commands with spaces should be written with them ommited");
-    println!("If you prefer, you may add the spaces but ensure that your command is surrounded by \" \"\n");
-    println!("\x1b[38;5;46mEXAMPLE\x1b[0m");
-    println!("\x1b[1mcommands -c1 zerogravity -c2 \"zero gravity\"\x1b[0m");
-    println!("There is also many shorthand namings for the commands which can be found using the command \x1b[1mshorthand\x1b[0m");
-    println!("\x1b[38;5;196mTHE SHORTHAND COMMAND ISN'T IMPLEMENTED YET, SHORTHANDS CAN BE FOUND UNDER THE COMMAND ENUM\x1b[0m");
-    println!("The -c1 OR -c2 command allowing you to change one command at a time if desired.");
+pub fn display_commands_help() {
+    println!("Commands commands:");
+    println!("\x1b[1mcommands change [command1] [command2]\x1b[0m - Change the current commands");
+    println!("\x1b[1mcommands status\x1b[0m - Display the current commands");
+    println!("\x1b[1mcommands help\x1b[0m - Show this help message");
 }
 
 pub fn display_commands_status(command1: Command, command2: Command){
