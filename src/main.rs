@@ -5,10 +5,8 @@ mod commands;
 mod meld;
 mod utilities;
 
-use std::cmp::PartialEq;
 use std::collections::HashMap;
 use std::fs;
-use std::io::Write;
 use serde_json::{Result};
 use crate::character::*;
 use crate::commands::*;
@@ -26,20 +24,22 @@ fn main() {
         let user_input = get_user_input();
         let args: Vec<String> = split_args_with_quotes(&user_input);
 
-        process_user_command(&args, &mut character, &mut command1, &mut command2, &recipes);
+        if process_user_command(&args, &mut character, &mut command1, &mut command2, &recipes) {
+            break;
+        }
     }
 }
 
-fn process_user_command(args: &[String], character: &mut Character, command1: &mut Command, command2: &mut Command, recipes: &Result<HashMap<(Command, Command), Recipe>>){
+fn process_user_command(args: &[String], character: &mut Character, command1: &mut Command, command2: &mut Command, recipes: &Result<HashMap<(Command, Command), Recipe>>) -> bool {
     if args.is_empty(){
-        return;
+        return false;
     }
 
     match args[0].to_lowercase().as_str(){
         "char" => {
             if args.len() < 2{
                 println!("\x1b[38;5;196mERROR\x1b[0m: No sub-commands provided for \x1b[1mchar\x1b[0m. Try using \x1b[1mchar help\x1b[0m for more info.");
-                return;
+                return false;
             }
             match args[1].to_lowercase().as_str(){
                 "change" => change_character(&args[2..], character),
@@ -51,7 +51,7 @@ fn process_user_command(args: &[String], character: &mut Character, command1: &m
         "commands" => {
             if args.len() < 2{
                 println!("\x1b[38;5;196mERROR\x1b[0m: No sub-commands provided for \x1b[1mcommands\x1b[0m. Try using \x1b[1mcommands help\x1b[0m for more info.");
-                return;
+                return false;
             }
             match args[1].to_lowercase().as_str(){
                 "change" => change_commands(&args[2..], command1, command2),
@@ -62,8 +62,13 @@ fn process_user_command(args: &[String], character: &mut Character, command1: &m
         }
         "meld" => pre_meld_menu(&character, &command1, &command2, recipes),
         "help" => display_help(),
+        "exit" => {
+            println!("Exiting BBS-MeldAssist...");
+            return true;
+        }
         _ => println!("\x1b[38;5;196mERROR\x1b[0m: Unknown command {}. Use \x1b[1mhelp\x1b[0m for a detailed list of commands.", args[0])
     }
+    false
 }
 
 fn add_recipes_to_hashmap(json_path: &str) -> Result<HashMap<(Command, Command), Recipe>> {
