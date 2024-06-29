@@ -322,10 +322,19 @@ pub fn normalize_commands(command1: &Command, command2: &Command) -> (Command, C
 }
 
 pub fn display_commands_help() {
-    println!("Commands commands:");
-    println!("\x1b[1mcommands change [command1] [command2]\x1b[0m - Change the current commands");
-    println!("\x1b[1mcommands status\x1b[0m - Display the current commands");
-    println!("\x1b[1mcommands help\x1b[0m - Show this help message");
+    fn display_commands_help() {
+        println!("Command management:");
+        println!("\x1b[1mcommands change [options]\x1b[0m - Change the current commands.");
+        println!("    Options:");
+        println!("        \x1b[1m-c1 [command]\x1b[0m | \x1b[1m--command1 [command]\x1b[0m - Set the first command slot");
+        println!("        \x1b[1m-c2 [command]\x1b[0m | \x1b[1m--command2 [command]\x1b[0m - Set the second command slot");
+        println!("        \x1b[1m-s\x1b[0m | \x1b[1m--status\x1b[0m                    - Display the current commands after changing");
+        println!("    Note: At least one of \x1b[1m-c1\x1b[0m or \x1b[1m-c2\x1b[0m options must be provided.");
+        println!("          Example: \x1b[1mcommands change -c1 Fire -c2 Blizzard\x1b[0m");
+
+        println!("\x1b[1mcommands status\x1b[0m - Display the current commands.");
+        println!("\x1b[1mcommands help\x1b[0m - Show this help message.");
+    }
 }
 
 pub fn display_commands_status(command1: Command, command2: Command){
