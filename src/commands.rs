@@ -322,7 +322,6 @@ pub fn normalize_commands(command1: &Command, command2: &Command) -> (Command, C
 }
 
 pub fn display_commands_help() {
-    fn display_commands_help() {
         println!("Command management:");
         println!("\x1b[1mcommands change [options]\x1b[0m - Change the current commands.");
         println!("    Options:");
@@ -334,7 +333,6 @@ pub fn display_commands_help() {
 
         println!("\x1b[1mcommands status\x1b[0m - Display the current commands.");
         println!("\x1b[1mcommands help\x1b[0m - Show this help message.");
-    }
 }
 
 pub fn display_commands_status(command1: Command, command2: Command){
