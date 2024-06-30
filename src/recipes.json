@@ -4863,6 +4863,452 @@
         }
       ],
       "command_type": "J"
+    },
+    {
+      "command1": "SlidingDash",
+      "command2": "Magnera",
+      "results": [
+        {
+          "result": "HomingSlide",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "P"
+    },
+    {
+      "command1": "SlidingDash",
+      "command2": "AirSlide",
+      "results": [
+        {
+          "result": "HomingSlide",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "C"
+    },
+    {
+      "command1": "Magnet",
+      "command2": "AirSlide",
+      "results": [
+        {
+          "result": "HomingSlide",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "L"
+    },
+    {
+      "command1": "Firaga",
+      "command2": "Cartwheel",
+      "results": [
+        {
+          "result": "Firewheel",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "B"
+    },
+    {
+      "command1": "FissionFiraga",
+      "command2": "Cartwheel",
+      "results": [
+        {
+          "result": "Firewheel",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "B"
+    },
+    {
+      "command1": "BlizzardEdge",
+      "command2": "AirSlide",
+      "results": [
+        {
+          "result": "Ice Slide",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "F"
+    },
+    {
+      "command1": "Blizzaga",
+      "command2": "AirSlide",
+      "results": [
+        {
+          "result": "IceSlide",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "H"
+    },
+    {
+      "command1": "FireSurge",
+      "command2": "Glide",
+      "results": [
+        {
+          "result": "FireGlide",
+          "chances": [
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "C"
+    },
+    {
+      "command1": "Firaga",
+      "command2": "Glide",
+      "results": [
+        {
+          "result": "FireGlide",
+          "chances": [
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "B"
+    },
+    {
+      "command1": "Curaga",
+      "command2": "Block",
+      "results": [
+        {
+          "result": "RenewalBlock",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "P"
+    },
+    {
+      "command1": "Esuna",
+      "command2": "Block",
+      "results": [
+        {
+          "result": "RenewalBlock",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "C"
+    },
+    {
+      "command1": "StunEdge",
+      "command2": "Block",
+      "results": [
+        {
+          "result": "StunBlock",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "L"
+    },
+    {
+      "command1": "Thundaga",
+      "command2": "Block",
+      "results": [
+        {
+          "result": "StunBlock",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 1.0
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "I"
+    },
+    {
+      "command1": "PoisonEdge",
+      "command2": "Block",
+      "results": [
+        {
+          "result": "PoisonBlock",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 0.8
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 0.8
+            }
+          ]
+        },
+        {
+          "result": "BioBarrage",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 0.2
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 0.2
+            }
+          ]
+        }
+      ],
+      "command_type": "H"
+    },
+    {
+      "command1": "Poison",
+      "command2": "Block",
+      "results": [
+        {
+          "result": "PoisonBlock",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 0.8
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 0.8
+            }
+          ]
+        },
+        {
+          "result": "BioBarrage",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 0.2
+            },
+            {
+              "character": "Ventus",
+              "activation_chance": 0.2
+            }
+          ]
+        }
+      ],
+      "command_type": "P"
+    },
+    {
+      "command1": "Curaga",
+      "command2": "Barrier",
+      "results": [
+        {
+          "result": "RenewalBarrier",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "P"
+    },
+    {
+      "command1": "Esuna",
+      "command2": "Barrier",
+      "results": [
+        {
+          "result": "RenewalBarrier",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "N"
+    },
+    {
+      "command1": "ConfusionStrike",
+      "command2": "Barrier",
+      "results": [
+        {
+          "result": "ConfuseBarrier",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "C"
+    },
+    {
+      "command1": "Confuse",
+      "command2": "Barrier",
+      "results": [
+        {
+          "result": "ConfuseBarrier",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "L"
+    },
+    {
+      "command1": "SlidingDash",
+      "command2": "CounterHammer",
+      "results": [
+        {
+          "result": "PaybackFang",
+          "chances": [
+            {
+              "character": "Terra",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "P"
+    },
+    {
+      "command1": "SlidingDash",
+      "command2": "StrikeRaid",
+      "results": [
+        {
+          "result": "PaybackRaid",
+          "chances": [
+            {
+              "character": "Ventus",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "P"
+    },
+    {
+      "command1": "SlidingDash",
+      "command2": "FireSurge",
+      "results": [
+        {
+          "result": "PaybackSurge",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "C"
+    },
+    {
+      "command1": "SlidingDash",
+      "command2": "ThunderSurge",
+      "results": [
+        {
+          "result": "PaybackSurge",
+          "chances": [
+            {
+              "character": "Aqua",
+              "activation_chance": 1.0
+            }
+          ]
+        }
+      ],
+      "command_type": "L"
     }
   ]
 }
