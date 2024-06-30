@@ -149,8 +149,8 @@ fn generate_ability_search_results(ability: &Ability, recipes: Vec<Recipe>, acti
         String::from("         Ability Search Results         "),
         "&br".to_string(),
         format!("Ability: {:?}", ability.ability_name),
-        "&br".to_string(),
         format!("Active Character: {:?}", active_character),
+        format!("Required Crystal: {:?}", ability.ability_crystal)
     ];
 
     for recipe in recipes {
