@@ -80,49 +80,49 @@ fn fetch_ability_chart(rt: &RecipeType) -> String{
             abilities = vec!["Fire Boost", "Magic Haste", "Leaf Bracer", "Air Combo Plus", "HP Boost", "HP Prize Plus", "Link Prize Plus"];
         }
         RecipeType::B => {
-            abilities = vec!["Blizzard Boost", "Magic Haste", "Leaf Bracer", "Combo Plus", "Item Boost", "HP Prize Plus", "Lucky Strike"];
-        }
-        RecipeType::C => {
-            abilities = vec!["Thunder Boost", "Magic Haste", "Combo F Boost", "Air Combo Plus", "HP Boost", "Treasure Magnet", "Link Prize Plus"];
-        }
-        RecipeType::D => {
-            abilities = vec!["Cure Boost", "Magic Haste", "Combo F Boost", "Combo Plus", "Item Boost", "Treasure Magnet", "Lucky Strike"];
-        }
-        RecipeType::E => {
-            abilities = vec!["Fire Screen", "Attack Haste", "Leaf Bracer", "Combo Plus", "HP Boost", "HP Prize Plus", "Link Prize Plus"];
-        }
-        RecipeType::F => {
-            abilities = vec!["Blizzard Screen", "Attack Haste", "Leaf Bracer", "Air Combo Plus", "Item Boost", "HP Prize Plus", "Link Prize Plus"];
-        }
-        RecipeType::G => {
-            abilities = vec!["Thunder Screen", "Attack Haste", "Finish Boost", "Combo Plus", "HP Boost", "Treasure Magnet", "Link Prize Plus"];
-        }
-        RecipeType::H => {
-            abilities = vec!["Dark Screen", "Attack Haste", "Finish Boost", "Air Combo Plus", "Item Boost", "Treasure Magnet", "Lucky Strike"];
-        }
-        RecipeType::I => {
-            abilities = vec!["Fire Screen", "Attack Haste", "Finish Boost", "Combo Plus", "HP Boost", "HP Prize Plus", "Link Prize Plus"];
-        }
-        RecipeType::J => {
-            abilities = vec!["Blizzard Screen", "Magic Haste", "Combo F Boost", "Air Combo Plus", "Item Boost", "HP Prize Plus", "EXP Walker"];
-        }
-        RecipeType::K => {
-            abilities = vec!["Thunder Screen", "Attack Haste", "Finish Boost", "Combo Plus", "HP Boost", "Treasure Magnet", "Lucky Strike"];
-        }
-        RecipeType::L => {
-            abilities = vec!["Dark Screen", "Magic Haste", "Combo F Boost", "Air Combo Plus", "Item Boost", "Treasure Magnet", "EXP Walker"];
-        }
-        RecipeType::M => {
             abilities = vec!["Fire Boost", "Reload Boost", "Finish Boost", "Once More", "Damage Syphon", "HP Prize Plus", "EXP Chance"];
         }
-        RecipeType::N => {
+        RecipeType::C => {
+            abilities = vec!["Fire Screen", "Attack Haste", "Finish Boost", "Combo Plus", "HP Boost", "HP Prize Plus", "Link Prize Plus"];
+        }
+        RecipeType::D => {
+            abilities = vec!["Fire Screen", "Attack Haste", "Leaf Bracer", "Combo Plus", "HP Boost", "HP Prize Plus", "Link Prize Plus"];
+        }
+        RecipeType::E => {
+            abilities = vec!["Blizzard Boost", "Magic Haste", "Leaf Bracer", "Combo Plus", "Item Boost", "HP Prize Plus", "Lucky Strike"];
+        }
+        RecipeType::F => {
             abilities = vec!["Blizzard Boost", "Reload Boost", "Second Chance", "Air Combo Plus", "Damage Syphon", "HP Prize Plus", "Lucky Strike"];
         }
-        RecipeType::O => {
+        RecipeType::G => {
+            abilities = vec!["Blizzard Screen", "Attack Haste", "Leaf Bracer", "Air Combo Plus", "Item Boost", "HP Prize Plus", "Link Prize Plus"];
+        }
+        RecipeType::H => {
+            abilities = vec!["Blizzard Screen", "Magic Haste", "Combo F Boost", "Air Combo Plus", "Item Boost", "HP Prize Plus", "EXP Walker"];
+        }
+        RecipeType::I => {
+            abilities = vec!["Thunder Boost", "Magic Haste", "Combo F Boost", "Air Combo Plus", "HP Boost", "Treasure Magnet", "Link Prize Plus"];
+        }
+        RecipeType::J => {
             abilities = vec!["Thunder Boost", "Reload Boost", "Combo F Boost", "Once More", "Defender", "Treasure Magnet", "EXP Chance"];
         }
-        RecipeType::P => {
+        RecipeType::K => {
+            abilities = vec!["Thunder Screen", "Attack Haste", "Finish Boost", "Combo Plus", "HP Boost", "Treasure Magnet", "Link Prize Plus"];
+        }
+        RecipeType::L => {
+            abilities = vec!["Thunder Screen", "Attack Haste", "Finish Boost", "Combo Plus", "HP Boost", "Treasure Magnet", "Lucky Strike"];
+        }
+        RecipeType::M => {
+            abilities = vec!["Cure Boost", "Magic Haste", "Combo F Boost", "Combo Plus", "Item Boost", "Treasure Magnet", "Lucky Strike"];
+        }
+        RecipeType::N => {
             abilities = vec!["Cure Boost", "Reload Boost", "Second Chance", "Combo Plus", "Defender", "Treasure Magnet", "Lucky Strike"];
+        }
+        RecipeType::O => {
+            abilities = vec!["Dark Screen", "Attack Haste", "Finish Boost", "Air Combo Plus", "Item Boost", "Treasure Magnet", "Lucky Strike"];
+        }
+        RecipeType::P => {
+            abilities = vec!["Dark Screen", "Magic Haste", "Combo F Boost", "Air Combo Plus", "Item Boost", "Treasure Magnet", "EXP Walker"];
         }
     }
 
