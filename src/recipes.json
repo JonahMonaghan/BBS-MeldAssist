@@ -23,7 +23,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "StunEdge",
@@ -60,7 +60,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "Blitz",
@@ -76,7 +76,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "FireStrike",
@@ -92,7 +92,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Blitz",
@@ -117,7 +117,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "BarrierSurge",
@@ -142,7 +142,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "SlidingDash",
@@ -166,7 +166,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "SlidingDash",
@@ -190,7 +190,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "ConfusionStrike",
@@ -214,7 +214,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "FireDash",
@@ -230,7 +230,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "FireDash",
@@ -246,7 +246,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "QuickBlitz",
@@ -279,7 +279,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "FireSurge",
@@ -295,7 +295,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "Blitz",
@@ -320,7 +320,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Blitz",
@@ -361,7 +361,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "FireDash",
@@ -402,7 +402,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "DarkHaze",
@@ -427,7 +427,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "DarkHaze",
@@ -452,7 +452,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "SonicBlade",
@@ -477,7 +477,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "QuickBlitz",
@@ -501,7 +501,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "StrikeRaid",
@@ -525,7 +525,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "BlizzardEdge",
@@ -549,7 +549,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "StrikeRaid",
@@ -565,7 +565,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "SlotEdge",
@@ -581,7 +581,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "SlotEdge",
@@ -597,7 +597,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "FreezeRaid",
@@ -613,7 +613,7 @@
           ]
         }
       ],
-      "command_type": "J"
+      "recipe_type": "J"
     },
     {
       "command1": "TreasureRaid",
@@ -629,7 +629,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "ThunderSurge",
@@ -654,7 +654,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "Thundaga",
@@ -679,7 +679,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "DodgeRoll",
@@ -704,7 +704,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "FreezeRaid",
@@ -720,7 +720,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "TreasureRaid",
@@ -736,7 +736,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "FireDash",
@@ -760,7 +760,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "FireStrike",
@@ -784,7 +784,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "ConfusionStrike",
@@ -808,7 +808,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "BindingStrike",
@@ -832,7 +832,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "FireDash",
@@ -848,7 +848,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "StunEdge",
@@ -864,7 +864,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "FireDash",
@@ -888,7 +888,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "FreezeRaid",
@@ -912,7 +912,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "StunEdge",
@@ -936,7 +936,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "ConfusionStrike",
@@ -969,7 +969,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "FireDash",
@@ -993,7 +993,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "FireSurge",
@@ -1017,7 +1017,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "FireStrike",
@@ -1050,7 +1050,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "SlidingDash",
@@ -1083,7 +1083,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "StrikeRaid",
@@ -1116,7 +1116,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "StrikeRaid",
@@ -1149,7 +1149,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "Blitz",
@@ -1165,7 +1165,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "QuickBlitz",
@@ -1198,7 +1198,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "QuickBlitz",
@@ -1231,7 +1231,7 @@
           ]
         }
       ],
-      "command_type": "H"
+      "recipe_type": "H"
     },
     {
       "command1": "SlidingDash",
@@ -1264,7 +1264,7 @@
           ]
         }
       ],
-      "command_type": "E"
+      "recipe_type": "E"
     },
     {
       "command1": "SlidingDash",
@@ -1297,7 +1297,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "PoisonEdge",
@@ -1330,7 +1330,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "BlizzardEdge",
@@ -1363,7 +1363,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "AerialSlam",
@@ -1383,7 +1383,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "Stopga",
@@ -1408,7 +1408,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "QuickBlitz",
@@ -1449,7 +1449,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "SlidingDash",
@@ -1490,7 +1490,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "StrikeRaid",
@@ -1531,7 +1531,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "StrikeRaid",
@@ -1547,7 +1547,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "BarrierSurge",
@@ -1563,7 +1563,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "StunEdge",
@@ -1579,7 +1579,7 @@
           ]
         }
       ],
-      "command_type": "J"
+      "recipe_type": "J"
     },
     {
       "command1": "WishingEdge",
@@ -1595,7 +1595,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "Curaga",
@@ -1628,7 +1628,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "Curaga",
@@ -1661,7 +1661,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "Curaga",
@@ -1686,7 +1686,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "Curaga",
@@ -1711,7 +1711,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "PoisonEdge",
@@ -1735,7 +1735,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "WishingEdge",
@@ -1751,7 +1751,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "StunEdge",
@@ -1775,7 +1775,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "QuickBlitz",
@@ -1799,7 +1799,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "SlidingDash",
@@ -1823,7 +1823,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "StrikeRaid",
@@ -1847,7 +1847,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "QuickBlitz",
@@ -1871,7 +1871,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "StrikeRaid",
@@ -1895,7 +1895,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "StunEdge",
@@ -1919,7 +1919,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "StunEdge",
@@ -1944,7 +1944,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "BindingStrike",
@@ -1969,7 +1969,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "ConfusionStrike",
@@ -1985,7 +1985,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "BindingStrike",
@@ -2001,7 +2001,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "BindingStrike",
@@ -2025,7 +2025,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "BindingStrike",
@@ -2049,7 +2049,7 @@
           ]
         }
       ],
-      "command_type": "J"
+      "recipe_type": "J"
     },
     {
       "command1": "QuickBlitz",
@@ -2090,7 +2090,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "StunEdge",
@@ -2131,7 +2131,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "ZeroGravira",
@@ -2172,7 +2172,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "BindingStrike",
@@ -2188,7 +2188,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "ConfusionStrike",
@@ -2204,7 +2204,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "BrutalBlast",
@@ -2220,7 +2220,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "BrutalBlast",
@@ -2236,7 +2236,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "WindRaid",
@@ -2252,7 +2252,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "BrutalBlast",
@@ -2277,7 +2277,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "DarkHaze",
@@ -2293,7 +2293,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "PoisonEdge",
@@ -2309,7 +2309,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "FireDash",
@@ -2333,7 +2333,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "FireStrike",
@@ -2357,7 +2357,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Fire",
@@ -2381,7 +2381,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Fire",
@@ -2405,7 +2405,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "FireDash",
@@ -2438,7 +2438,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Fire",
@@ -2471,7 +2471,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Fira",
@@ -2504,7 +2504,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "DarkHaze",
@@ -2520,7 +2520,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Firaga",
@@ -2536,7 +2536,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "Fira",
@@ -2569,7 +2569,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Firaga",
@@ -2602,7 +2602,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Firaga",
@@ -2635,7 +2635,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "Fira",
@@ -2660,7 +2660,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Blitz",
@@ -2685,7 +2685,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Firaga",
@@ -2710,7 +2710,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "Firaga",
@@ -2743,7 +2743,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Firaga",
@@ -2776,7 +2776,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Firaga",
@@ -2809,7 +2809,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "StrikeRaid",
@@ -2833,7 +2833,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "BlizzardEdge",
@@ -2857,7 +2857,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "Blizzard",
@@ -2881,7 +2881,7 @@
           ]
         }
       ],
-      "command_type": "E"
+      "recipe_type": "E"
     },
     {
       "command1": "Blizzard",
@@ -2905,7 +2905,7 @@
           ]
         }
       ],
-      "command_type": "H"
+      "recipe_type": "H"
     },
     {
       "command1": "BlizzardEdge",
@@ -2929,7 +2929,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "Blizzard",
@@ -2953,7 +2953,7 @@
           ]
         }
       ],
-      "command_type": "E"
+      "recipe_type": "E"
     },
     {
       "command1": "Blizzara",
@@ -2977,7 +2977,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "Blitz",
@@ -2993,7 +2993,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "Blizzara",
@@ -3009,7 +3009,7 @@
           ]
         }
       ],
-      "command_type": "E"
+      "recipe_type": "E"
     },
     {
       "command1": "Blizzaga",
@@ -3025,7 +3025,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "StunEdge",
@@ -3049,7 +3049,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "Thunder",
@@ -3073,7 +3073,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "ZeroGravity",
@@ -3097,7 +3097,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "BindingStrike",
@@ -3138,7 +3138,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "Thunder",
@@ -3179,7 +3179,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "Thundara",
@@ -3220,7 +3220,7 @@
           ]
         }
       ],
-      "command_type": "J"
+      "recipe_type": "J"
     },
     {
       "command1": "StrikeRaid",
@@ -3245,7 +3245,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "FreezeRaid",
@@ -3270,7 +3270,7 @@
           ]
         }
       ],
-      "command_type": "E"
+      "recipe_type": "E"
     },
     {
       "command1": "Firaga",
@@ -3295,7 +3295,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Thunder",
@@ -3319,7 +3319,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "Cure",
@@ -3343,7 +3343,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "Cure",
@@ -3367,7 +3367,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "Cure",
@@ -3391,7 +3391,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "Cura",
@@ -3415,7 +3415,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "Fira",
@@ -3439,7 +3439,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Fira",
@@ -3459,7 +3459,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "Ignite",
@@ -3483,7 +3483,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Stopra",
@@ -3503,7 +3503,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "Fira",
@@ -3527,7 +3527,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Fira",
@@ -3543,7 +3543,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "Aerora",
@@ -3567,7 +3567,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Stopra",
@@ -3583,7 +3583,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "MineShield",
@@ -3599,7 +3599,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "MineShield",
@@ -3615,7 +3615,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "MineSquare",
@@ -3631,7 +3631,7 @@
           ]
         }
       ],
-      "command_type": "D"
+      "recipe_type": "D"
     },
     {
       "command1": "Thunder",
@@ -3664,7 +3664,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "ZeroGravity",
@@ -3697,7 +3697,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "Magnet",
@@ -3730,7 +3730,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "Thundara",
@@ -3763,7 +3763,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "ZeroGravity",
@@ -3796,7 +3796,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "ZeroGravira",
@@ -3829,7 +3829,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "StunEdge",
@@ -3853,7 +3853,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "Thunder",
@@ -3877,7 +3877,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "Magnet",
@@ -3901,7 +3901,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "Magnet",
@@ -3925,7 +3925,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "Magnera",
@@ -3949,7 +3949,7 @@
           ]
         }
       ],
-      "command_type": "J"
+      "recipe_type": "J"
     },
     {
       "command1": "WishingEdge",
@@ -3965,7 +3965,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "Thundara",
@@ -3981,7 +3981,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "Cure",
@@ -3997,7 +3997,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "Cura",
@@ -4013,7 +4013,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "ZeroGravira",
@@ -4029,7 +4029,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "Magnera",
@@ -4045,7 +4045,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "QuickBlitz",
@@ -4078,7 +4078,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "Thunder",
@@ -4111,7 +4111,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "Aero",
@@ -4144,7 +4144,7 @@
           ]
         }
       ],
-      "command_type": "E"
+      "recipe_type": "E"
     },
     {
       "command1": "QuickBlitz",
@@ -4177,7 +4177,7 @@
           ]
         }
       ],
-      "command_type": "O"
+      "recipe_type": "O"
     },
     {
       "command1": "Aero",
@@ -4210,7 +4210,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "Aerora",
@@ -4243,7 +4243,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "WindRaid",
@@ -4259,7 +4259,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "FreezeRaid",
@@ -4283,7 +4283,7 @@
           ]
         }
       ],
-      "command_type": "G"
+      "recipe_type": "G"
     },
     {
       "command1": "BindingStrike",
@@ -4307,7 +4307,7 @@
           ]
         }
       ],
-      "command_type": "H"
+      "recipe_type": "H"
     },
     {
       "command1": "Blizzaga",
@@ -4323,7 +4323,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "Blizzaga",
@@ -4339,7 +4339,7 @@
           ]
         }
       ],
-      "command_type": "E"
+      "recipe_type": "E"
     },
     {
       "command1": "TripleBlizzaga",
@@ -4355,7 +4355,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "Blizzaga",
@@ -4371,7 +4371,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "Blizzaga",
@@ -4387,7 +4387,7 @@
           ]
         }
       ],
-      "command_type": "H"
+      "recipe_type": "H"
     },
     {
       "command1": "FissionFiraga",
@@ -4403,7 +4403,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "FireSurge",
@@ -4428,7 +4428,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "FissionFiraga",
@@ -4452,7 +4452,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "BrutalBlast",
@@ -4477,7 +4477,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "BrutalBlast",
@@ -4502,7 +4502,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "GeoImpact",
@@ -4518,7 +4518,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "Magnega",
@@ -4534,7 +4534,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "MagnetSpiral",
@@ -4558,7 +4558,7 @@
           ]
         }
       ],
-      "command_type": "J"
+      "recipe_type": "J"
     },
     {
       "command1": "Magnera",
@@ -4574,7 +4574,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "Magnega",
@@ -4598,7 +4598,7 @@
           ]
         }
       ],
-      "command_type": "J"
+      "recipe_type": "J"
     },
     {
       "command1": "Magnega",
@@ -4622,7 +4622,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "ZeroGravity",
@@ -4646,7 +4646,7 @@
           ]
         }
       ],
-      "command_type": "M"
+      "recipe_type": "M"
     },
     {
       "command1": "ZeroGravira",
@@ -4670,7 +4670,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "ZeroGravira",
@@ -4694,7 +4694,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "Fire",
@@ -4718,7 +4718,7 @@
           ]
         }
       ],
-      "command_type": "A"
+      "recipe_type": "A"
     },
     {
       "command1": "Fira",
@@ -4742,7 +4742,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "Slow",
@@ -4766,7 +4766,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "Slow",
@@ -4790,7 +4790,7 @@
           ]
         }
       ],
-      "command_type": "K"
+      "recipe_type": "K"
     },
     {
       "command1": "Stop",
@@ -4814,7 +4814,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "Stop",
@@ -4838,7 +4838,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "Stopra",
@@ -4862,7 +4862,7 @@
           ]
         }
       ],
-      "command_type": "J"
+      "recipe_type": "J"
     },
     {
       "command1": "SlidingDash",
@@ -4882,7 +4882,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "SlidingDash",
@@ -4902,7 +4902,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "Magnet",
@@ -4922,7 +4922,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "Firaga",
@@ -4938,7 +4938,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "FissionFiraga",
@@ -4954,7 +4954,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "BlizzardEdge",
@@ -4978,7 +4978,7 @@
           ]
         }
       ],
-      "command_type": "F"
+      "recipe_type": "F"
     },
     {
       "command1": "Blizzaga",
@@ -5002,7 +5002,7 @@
           ]
         }
       ],
-      "command_type": "H"
+      "recipe_type": "H"
     },
     {
       "command1": "FireSurge",
@@ -5018,7 +5018,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "Firaga",
@@ -5034,7 +5034,7 @@
           ]
         }
       ],
-      "command_type": "B"
+      "recipe_type": "B"
     },
     {
       "command1": "Curaga",
@@ -5054,7 +5054,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "Esuna",
@@ -5074,7 +5074,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "StunEdge",
@@ -5094,7 +5094,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "Thundaga",
@@ -5114,7 +5114,7 @@
           ]
         }
       ],
-      "command_type": "I"
+      "recipe_type": "I"
     },
     {
       "command1": "PoisonEdge",
@@ -5147,7 +5147,7 @@
           ]
         }
       ],
-      "command_type": "H"
+      "recipe_type": "H"
     },
     {
       "command1": "Poison",
@@ -5180,7 +5180,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "Curaga",
@@ -5196,7 +5196,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "Esuna",
@@ -5212,7 +5212,7 @@
           ]
         }
       ],
-      "command_type": "N"
+      "recipe_type": "N"
     },
     {
       "command1": "ConfusionStrike",
@@ -5228,7 +5228,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "Confuse",
@@ -5244,7 +5244,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     },
     {
       "command1": "SlidingDash",
@@ -5260,7 +5260,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "SlidingDash",
@@ -5276,7 +5276,7 @@
           ]
         }
       ],
-      "command_type": "P"
+      "recipe_type": "P"
     },
     {
       "command1": "SlidingDash",
@@ -5292,7 +5292,7 @@
           ]
         }
       ],
-      "command_type": "C"
+      "recipe_type": "C"
     },
     {
       "command1": "SlidingDash",
@@ -5308,7 +5308,7 @@
           ]
         }
       ],
-      "command_type": "L"
+      "recipe_type": "L"
     }
   ]
 }

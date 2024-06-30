@@ -62,7 +62,7 @@ fn generate_meld_results(character: &Character, recipe: &Recipe) -> String {
 
     let mut output = generate_text_box(&lines);
     output += "\n\n\n";
-    output += fetch_ability_chart(&recipe.command_type).as_str();
+    output += fetch_ability_chart(&recipe.recipe_type).as_str();
 
     output
 }
@@ -71,7 +71,7 @@ fn fetch_ability_chart(rt: &RecipeType) -> String{
     let mut lines = vec![
         String::from("          Ability Crystals          "),
     ];
-    let mut abilities : Vec<&str> = vec![];
+    let mut abilities : Vec<&str>;
 
     let crystal_names = vec!["Shimmering Crystal", "Fleeting Crystal", "Pulsing Crystal", "Wellspring Crystal", "Soothing Crystal", "Hungry Crystal", "Abounding Crystal"];
 

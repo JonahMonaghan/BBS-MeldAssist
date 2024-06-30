@@ -1,0 +1,290 @@
+{
+  "abilities": [
+    {
+      "ability_name": "FireBoost",
+      "recipe_types": [
+        "A",
+        "B"
+      ],
+      "ability_crystal": "Shimmering"
+    },
+    {
+      "ability_name": "FireScreen",
+      "recipe_types": [
+        "C",
+        "D"
+      ],
+      "ability_crystal": "Shimmering"
+    },
+    {
+      "ability_name": "BlizzardBoost",
+      "recipe_types": [
+        "E",
+        "F"
+      ],
+      "ability_crystal": "Shimmering"
+    },
+    {
+      "ability_name": "BlizzardScreen",
+      "recipe_types": [
+        "G",
+        "H"
+      ],
+      "ability_crystal": "Shimmering"
+    },
+    {
+      "ability_name": "ThunderBoost",
+      "recipe_types": [
+        "I",
+        "J"
+      ],
+      "ability_crystal": "Shimmering"
+    },
+    {
+      "ability_name": "ThunderScreen",
+      "recipe_types": [
+        "K",
+        "L"
+      ],
+      "ability_crystal": "Shimmering"
+    },
+    {
+      "ability_name": "CureBoost",
+      "recipe_types": [
+        "M",
+        "N"
+      ],
+      "ability_crystal": "Shimmering"
+    },
+    {
+      "ability_name": "DarkScreen",
+      "recipe_types": [
+        "O",
+        "P"
+      ],
+      "ability_crystal": "Shimmering"
+    },
+    {
+      "ability_name": "MagicHaste",
+      "recipe_types": [
+        "A",
+        "E",
+        "H",
+        "I",
+        "M",
+        "P"
+      ],
+      "ability_crystal": "Fleeting"
+    },
+    {
+      "ability_name": "AttackHaste",
+      "recipe_types": [
+        "C",
+        "D",
+        "G",
+        "K",
+        "L",
+        "O"
+      ],
+      "ability_crystal": "Fleeting"
+    },
+    {
+      "ability_name": "ReloadBoost",
+      "recipe_types": [
+        "B",
+        "F",
+        "J",
+        "N"
+      ],
+      "ability_crystal": "Fleeting"
+    },
+    {
+      "ability_name": "LeafBracer",
+      "recipe_types": [
+        "A",
+        "D",
+        "E",
+        "G"
+      ],
+      "ability_crystal": "Pulsing"
+    },
+    {
+      "ability_name": "FinishBoost",
+      "recipe_types": [
+        "B",
+        "C",
+        "K",
+        "L",
+        "O"
+      ],
+      "ability_crystal": "Pulsing"
+    },
+    {
+      "ability_name": "SecondChance",
+      "recipe_types": [
+        "F",
+        "N"
+      ],
+      "ability_crystal": "Pulsing"
+    },
+    {
+      "ability_name": "ComboFBoost",
+      "recipe_types": [
+        "H",
+        "I",
+        "J",
+        "M",
+        "P"
+      ],
+      "ability_crystal": "Pulsing"
+    },
+    {
+      "ability_name": "AirComboPlus",
+      "recipe_types": [
+        "A",
+        "F",
+        "G",
+        "H",
+        "I",
+        "O",
+        "P"
+      ],
+      "ability_crystal": "Wellspring"
+    },
+    {
+      "ability_name": "OnceMore",
+      "recipe_types": [
+        "B",
+        "J"
+      ],
+      "ability_crystal": "Wellspring"
+    },
+    {
+      "ability_name": "ComboPlus",
+      "recipe_types": [
+        "C",
+        "D",
+        "E",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "ability_crystal": "Wellspring"
+    },
+    {
+      "ability_name": "HPBoost",
+      "recipe_types": [
+        "A",
+        "C",
+        "D",
+        "I",
+        "K",
+        "L"
+      ],
+      "ability_crystal": "Soothing"
+    },
+    {
+      "ability_name": "DamageSyphon",
+      "recipe_types": [
+        "B",
+        "F"
+      ],
+      "ability_crystal": "Soothing"
+    },
+    {
+      "ability_name": "ItemBoost",
+      "recipe_types": [
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "ability_crystal": "Soothing"
+    },
+    {
+      "ability_name": "Defender",
+      "recipe_types": [
+        "J",
+        "N"
+      ],
+      "ability_crystal": "Soothing"
+    },
+    {
+      "ability_name": "HPPrizePlus",
+      "recipe_types": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "ability_crystal": "Hungry"
+    },
+    {
+      "ability_name": "TreasureMagnet",
+      "recipe_types": [
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "ability_crystal": "Hungry"
+    },
+    {
+      "ability_name": "LinkPrizePlus",
+      "recipe_types": [
+        "A",
+        "C",
+        "D",
+        "I",
+        "K"
+      ],
+      "ability_crystal": "Abounding"
+    },
+    {
+      "ability_name": "EXPChance",
+      "recipe_types": [
+        "B",
+        "J"
+      ],
+      "ability_crystal": "Abounding"
+    },
+    {
+      "ability_name": "LuckyStrike",
+      "recipe_types": [
+        "E",
+        "F",
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "ability_crystal": "Abounding"
+    },
+    {
+      "ability_name": "LuckBoost",
+      "recipe_types": [
+        "G"
+      ],
+      "ability_crystal": "Abounding"
+    },
+    {
+      "ability_name": "EXPWalker",
+      "recipe_types": [
+        "H",
+        "P"
+      ],
+      "ability_crystal": "Abounding"
+    }
+  ]
+}

@@ -8,6 +8,7 @@ mod utilities;
 use std::collections::HashMap;
 use std::fs;
 use serde_json::{Result};
+use crate::abilities::{Abilities, search_recipes_by_ability};
 use crate::character::*;
 use crate::commands::*;
 use crate::meld::*;
@@ -18,20 +19,22 @@ fn main() {
     enable_virtual_terminal_processing();
     launch_banner();
     let recipes = add_recipes_to_hashmap("src/recipes.json");
+    let abilities = load_abilities("src/abilities.json");
     let mut command1 : Command = Command::Unknown;
     let mut command2 : Command = Command::Unknown;
     let mut character : Character = Character::Unknown;
+
     loop {
         let user_input = get_user_input();
         let args: Vec<String> = split_args_with_quotes(&user_input);
 
-        if process_user_command(&args, &mut character, &mut command1, &mut command2, &recipes) {
+        if process_user_command(&args, &mut character, &mut command1, &mut command2, &recipes, &abilities) {
             break;
         }
     }
 }
 
-fn process_user_command(args: &[String], character: &mut Character, command1: &mut Command, command2: &mut Command, recipes: &Result<HashMap<(Command, Command), Recipe>>) -> bool {
+fn process_user_command(args: &[String], character: &mut Character, command1: &mut Command, command2: &mut Command, recipes: &Result<HashMap<(Command, Command), Recipe>>, abilities: &Abilities) -> bool {
     if args.is_empty(){
         return false;
     }
@@ -61,6 +64,16 @@ fn process_user_command(args: &[String], character: &mut Character, command1: &m
                 _ => println!("\x1b[38;5;196mERROR\x1b[0m: Unknown sub-command for \x1b[1mcommands\x1b[0m. Try using \x1b[1mcommands help\x1b[0m for more info.")
             }
         }
+        "abilities" => {
+            if args.len() < 2{
+                println!("\x1b[38;5;196mERROR\x1b[0m: No sub-commands provided for \x1b[abilities\x1b[0m. Try using \x1b[1mabilities help\x1b[0m for more info.");
+                return false;
+            }
+            match args[1].to_lowercase().as_str(){
+                "search" => search_recipes_by_ability(args[2].as_str(), abilities, recipes, character.clone()),
+                _ => println!("\x1b[38;5;196mERROR\x1b[0m: Unknown sub-command for \x1b[1mcommands\x1b[0m. Try using \x1b[1mcommands help\x1b[0m for more info.")
+            }
+        }
         "meld" => pre_meld_menu(&character, &command1, &command2, recipes),
         "help" => display_help(),
         "exit" => {
@@ -84,6 +97,11 @@ fn add_recipes_to_hashmap(json_path: &str) -> Result<HashMap<(Command, Command),
     }
 
     Ok(recipes_map)
+}
+
+fn load_abilities(json_path: &str) -> Abilities {
+    let json = fs::read_to_string(json_path).expect("Unable to read file");
+    serde_json::from_str(&json).expect("JSON was not well-formatted")
 }
 
 //Banner
