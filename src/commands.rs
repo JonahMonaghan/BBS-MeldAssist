@@ -355,10 +355,18 @@ pub fn change_commands(args: &[String], command1: &mut Command, command2: &mut C
         match args[index].to_lowercase().as_str(){
             "-c1" | "--command1" =>{
                 index += 1;
+                if args.len() <= index{
+                    println!("\x1b[38;5;196mERROR\x1b[0m: No command supplied for \x1b[1m-c1\x1b[0m, aborting process...");
+                    return
+                }
                 set_command(args[index].clone(), command1);
             }
             "-c2" | "--command2" =>{
                 index += 1;
+                if args.len() <= index{
+                    println!("\x1b[38;5;196mERROR\x1b[0m: No command supplied for \x1b[1m-c2\x1b[0m, aborting process...");
+                    return
+                }
                 set_command(args[index].clone(), command2);
             }
             "-s" | "--status" => {
